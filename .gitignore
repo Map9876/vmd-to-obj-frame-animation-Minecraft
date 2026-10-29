@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.glb
+*.mp4
+frames*/
+data/
+assets/
+node_modules/
+*.zip
