@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>mcblock same-source block model viewer</title>
+<style>
+  :root { --bg:#0e0f12; --panel:#17191e; --fg:#e7e9ee; --muted:#9aa0ab; --accent:#5aa9ff; --line:#2a2e36; }
+  * { box-sizing: border-box; }
+  html,body { margin:0; height:100%; background:var(--bg); color:var(--fg);
+    font-family: ui-sans-serif, system-ui, "PingFang SC", "Microsoft YaHei", sans-serif; }
+  #app { position:fixed; inset:0; }
+  canvas { display:block; }
+  #top { position:fixed; top:0; left:0; right:0; height:46px; display:flex; gap:8px; align-items:center;
+    padding:0 12px; background:rgba(20,22,27,.85); border-bottom:1px solid var(--line); z-index:20; }
+  #top .title { font-size:13px; color:var(--muted); margin-right:6px; }
+  #top .title b { color:var(--fg); }
+  #top button { background:#22262e; color:var(--fg); border:1px solid #333a44; border-radius:8px;
+    padding:6px 10px; cursor:pointer; font-size:13px; }
+  #top button:hover { background:#2c323c; }
+  #top button.on { background:var(--accent); border-color:var(--accent); color:#04111f; font-weight:600; }
+  #top button.primary { background:var(--accent); border-color:var(--accent); color:#04111f; font-weight:600; }
+  #side { position:fixed; top:46px; right:0; bottom:0; width:300px; background:var(--panel);
+    border-left:1px solid var(--line); display:none; flex-direction:column; z-index:15; }
+  #side.show { display:flex; }
+  #side .head { padding:10px 12px; border-bottom:1px solid var(--line); }
+  #side .head .big { font-size:15px; font-weight:700; }
+  #side .head .sub { font-size:12px; color:var(--muted); margin-top:2px; }
+  #side input.search { width:100%; margin-top:8px; padding:7px 9px; border-radius:8px;
+    border:1px solid #333a44; background:#0e0f12; color:var(--fg); font-size:13px; }
+  #matlist { flex:1; overflow:auto; padding:6px 8px; }
+  .mat { display:flex; align-items:center; gap:8px; padding:5px 6px; border-radius:7px; }
+  .mat:hover { background:#20242c; }
+  .mat img { width:22px; height:22px; border-radius:4px; image-rendering:pixelated; background:#000; }
+  .mat .nm { flex:1; font-size:12px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .mat .ct { font-size:12px; color:var(--muted); font-variant-numeric:tabular-nums; }
+  .mat .bar { height:4px; border-radius:2px; background:var(--accent); margin-top:3px; }
+  #ui { position:fixed; left:50%; bottom:18px; transform:translateX(-50%);
+    background:rgba(23,25,30,.85); border:1px solid var(--line); border-radius:14px; padding:10px 14px;
+    display:none; gap:12px; align-items:center; z-index:15; }
+  #ui button { background:#22262e; color:var(--fg); border:1px solid #333a44; border-radius:9px; padding:7px 12px; cursor:pointer; }
+  #ui button:hover { background:#2c323c; }
+  #ui button.primary { background:var(--accent); border-color:var(--accent); color:#04111f; font-weight:600; }
+  #scrub { flex:1; accent-color:var(--accent); min-width:200px; }
+  .meta { font-variant-numeric:tabular-nums; color:var(--muted); font-size:13px; min-width:90px; text-align:center; }
+  #speed { background:#22262e; color:var(--fg); border:1px solid #333a44; border-radius:9px; padding:6px 8px; }
+  #loading { position:fixed; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:18px; color:var(--muted); font-size:15px; z-index:30; }
+  #loaderCanvas { display:block; margin:0 auto; filter:drop-shadow(0 2px 14px rgba(126,68,152,.55)); }
+  #loadStatus { font-variant-numeric:tabular-nums; letter-spacing:.3px; }
+  #drop { position:fixed; inset:0; display:none; align-items:center; justify-content:center; background:rgba(10,12,16,.85);
+    color:var(--accent); font-size:22px; border:3px dashed var(--accent); z-index:50; }
+  #drop.show { display:flex; }
+  #file { display:none; }
+  .hint { position:fixed; left:12px; bottom:14px; font-size:12px; color:var(--muted); z-index:15; max-width:360px; line-height:1.5; }
+</style>
+<script type="importmap">
+{ "imports": { "three": "./vendor/three.module.js" } }
+</script>
+</head>
+<body>
+  <div id="app"></div>
+  <div id="top">
+    <span class="title">mcblock 同源于 <b id="blk">0</b> 方块</span>
+    <button id="uploadBtn" class="primary">上传 .litematic</button>
+    <button id="backBtn" style="display:none">返回动画</button>
+    <button id="btnView" class="on">视图</button>
+    <button id="btnGrid">网格</button>
+    <button id="btnAxis" class="on">XYZ轴</button>
+    <button id="btnTrans">半透明</button>
+    <button id="btnMat">材料</button>
+    <button id="btnMeasure" disabled title="需后端标注数据(伪代码预留)">测量</button>
+    <button id="btnAnno" disabled title="需后端标注数据(伪代码预留)">标注</button>
+    <input id="file" type="file" accept=".litematic,.nbt,.schem" />
+  </div>
+  <div id="side">
+    <div class="head">
+      <div class="big"><span id="matCount">0</span> 种材质</div>
+      <div class="sub"><span id="matBlocks">0</span> 个方块 · 搜索 block_id</div>
+      <input class="search" id="matSearch" placeholder="搜索材质…" />
+    </div>
+    <div id="matlist"></div>
+  </div>
+  <div id="ui">
+    <button id="play" class="primary">▶ 播放</button>
+    <button id="stepb">⏮</button>
+    <input id="scrub" type="range" min="0" max="29" value="0" step="1" />
+    <button id="stepf">⏭</button>
+    <span class="meta"><span id="fnum">1</span>/<span id="ftot">30</span></span>
+    <select id="speed">
+      <option value="0.5">0.5×</option>
+      <option value="1" selected>1×(30fps)</option>
+      <option value="2">2×</option>
+      <option value="4">4×</option>
+    </select>
+  </div>
+  <div class="hint">拖入 / 上传 .litematic 即可查看。空格播放，←→ 切帧，滚轮缩放，拖拽旋转。</div>
+  <div id="loading">
+    <canvas id="loaderCanvas"></canvas>
+    <div id="loadStatus">正在解码帧并构建场景…</div>
+  </div>
+  <div id="drop">拖入 .litematic 查看</div>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

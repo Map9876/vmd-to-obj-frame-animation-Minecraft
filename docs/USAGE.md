@@ -3,7 +3,22 @@
 把一段 MMD 舞蹈模型（.pmx 模型 + .vmd 动作）转成「用真实 Minecraft 方块搭出来」的逐帧模型，
 再在纯前端网页里 24fps 播放。不进真实 MC 世界，交付物是一个网页播放器。
 
-> 角色当前用的是 **提弗洛斯 (Typhoea)**：模型 assets/提弗洛斯.pmx，贴图 assets/textures/T_actor_typhoea_*。
+## 0. 一句话：输入只需要两样东西
+
+把任意 **动作 (.vmd)** + 任意 **角色模型 (.pmx)** 丢进来，就能产出逐帧方块模型并在网页播放。
+模型/动作都不写死，换文件只改 STAGE 1 的 `--pmx` / `--vmd` 两个参数即可。
+
+**本仓库已自带示例资源（提弗洛斯 / Typhoea）：**
+- 模型：`player/mmd-direct/models/提弗洛斯.pmx`（MMD 版提弗洛斯，含 `textures/`、`other tex/` 贴图）
+- 动作：`player/mmd-direct/models/daybyday适用tda等通用版本.vmd`、`daybyday适用yyb版.vmd`
+- 镜头：`player/mmd-direct/models/镜头.vmd`（仅给网页相机轨迹，不参与体素化）
+
+**想换资源，可在这里取（用户提供的出处）：**
+- 动作 daybyday（XII-Ram 配布，B 站演示）：https://www.bilibili.com/video/BV1RHn86wEf1/
+- 动作 daybyday 下载（aplaybox）：https://aplaybox.com/details/motion/AnFKX3dRbPLq
+- 角色模型 提弗洛斯（茶叶味香皂，明日方舟：终末地）：https://www.aplaybox.com/details/model/mDl26SNpxlus
+
+> 注：终末地原版是游戏模型，需先转成 MMD 的 `.pmx` 才能喂给本流水线；仓库里的 `提弗洛斯.pmx` 已经是一个可用的 MMD 版。
 
 ---
 
@@ -11,10 +26,10 @@
 
 | 用途 | 文件 | 路径 | 说明 |
 |------|------|------|------|
-| 模型/皮肤 | 提弗洛斯.pmx | assets/提弗洛斯.pmx | MMD 模型（含骨骼、贴图）。CJK 文件名，shell 里必须加引号 |
-| 身体动作 | daybyday适用tda等通用版本.vmd | assets/daybyday适用tda等通用版本.vmd | 任意 VMD 均可，用 --vmd 指定即可 |
-| 身体动作(备选) | daybyday适用yyb版.vmd | assets/daybyday适用yyb版.vmd | 另一套动作 |
-| 镜头动作 | 镜头.vmd | assets/镜头.vmd | 仅给网页播放器当相机轨迹，**不参与** 体素化 |
+| 模型/皮肤 | 提弗洛斯.pmx | player/mmd-direct/models/提弗洛斯.pmx | MMD 模型（含骨骼、贴图）。CJK 文件名，shell 里必须加引号 |
+| 身体动作 | daybyday适用tda等通用版本.vmd | player/mmd-direct/models/daybyday适用tda等通用版本.vmd | 任意 VMD 均可，用 --vmd 指定即可 |
+| 身体动作(备选) | daybyday适用yyb版.vmd | player/mmd-direct/models/daybyday适用yyb版.vmd | 另一套动作 |
+| 镜头动作 | 镜头.vmd | player/mmd-direct/models/镜头.vmd | 仅给网页播放器当相机轨迹，**不参与** 体素化 |
 
 **关键点：动作文件不是写死的。** 你手头任何 .vmd（下载的、自己 K 的）都能直接喂给下面的
 --vmd 参数，模型会自动套上该动作并逐帧烘焙。镜头 .vmd 是独立的一条，只用于最终网页镜头。
@@ -42,8 +57,8 @@ MC 方块    frames_ots/frame_0000N.litematic   (真实方块 + 真实颜色)
 
     cd /workspace/mc-voxel-video
     ./tools/blender -b -P pipeline/sample_mmd.py -- \
-      --pmx  assets/提弗洛斯.pmx \
-      --vmd  assets/daybyday适用tda等通用版本.vmd \
+      --pmx  player/mmd-direct/models/提弗洛斯.pmx \
+      --vmd  player/mmd-direct/models/daybyday适用tda等通用版本.vmd \
       --out  frames_glb \
       --max  30 \
       --fps  24
@@ -80,8 +95,8 @@ MC 方块    frames_ots/frame_0000N.litematic   (真实方块 + 真实颜色)
     cd /workspace/objtoschematic_tool
     VOX=solid ./node_modules/.bin/ts-node --transpile-only -r ./tools/ots_hook.js \
       ./tools/run-ots-frame.ts \
-      --input-dir  /workspace/mc-voxel-video/frames_glb \
-      --output-dir /workspace/mc-voxel-video/frames_ots \
+      --input-dir  frames_glb \
+      --output-dir frames_ots \
       --size 150 \
       --exporter litematic
 
@@ -108,7 +123,7 @@ GLB 自带的 baseColor 贴图让 ObjToSchematic 按真实表面颜色分配方�
 脚本：player/build.mjs
 数据：player/data/frames.json + 贴图 player/assets/block-textures/*.png
 
-    cd /workspace/mc-voxel-video/player
+    cd player
     node build.mjs
     # 起本地服务（端口任意，下面用 8123 举例）
     python3 -m http.server 8123 --bind 0.0.0.0
@@ -158,25 +173,25 @@ GLB 自带的 baseColor 贴图让 ObjToSchematic 按真实表面颜色分配方�
 
 | 阶段 | 文件/目录 | 绝对路径 |
 |------|-----------|----------|
-| 模型 | 提弗洛斯.pmx | /workspace/mc-voxel-video/assets/提弗洛斯.pmx |
-| 动作(tda) | .vmd | /workspace/mc-voxel-video/assets/daybyday适用tda等通用版本.vmd |
-| 动作(yyb) | .vmd | /workspace/mc-voxel-video/assets/daybyday适用yyb版.vmd |
-| 镜头 | 镜头.vmd | /workspace/mc-voxel-video/assets/镜头.vmd |
-| 贴图 | 模型贴图 | /workspace/mc-voxel-video/assets/textures/T_actor_typhoea_* |
-| STAGE1 脚本 | sample_mmd.py | /workspace/mc-voxel-video/pipeline/sample_mmd.py |
-| STAGE1 输出 | GLB 帧 | /workspace/mc-voxel-video/frames_glb/frame_000NN.glb + manifest.json |
-| Blender | 可执行 | /workspace/mc-voxel-video/tools/blender -> tools/blender-4.2.3-linux-x64/blender |
-| mmd_tools 源码 | — | /workspace/mc-voxel-video/tools/mmdtools_src |
+| 模型 | 提弗洛斯.pmx | player/mmd-direct/models/提弗洛斯.pmx |
+| 动作(tda) | .vmd | player/mmd-direct/models/daybyday适用tda等通用版本.vmd |
+| 动作(yyb) | .vmd | player/mmd-direct/models/daybyday适用yyb版.vmd |
+| 镜头 | 镜头.vmd | player/mmd-direct/models/镜头.vmd |
+| 贴图 | 模型贴图 | player/mmd-direct/models/textures/T_actor_typhoea_* |
+| STAGE1 脚本 | sample_mmd.py | pipeline/sample_mmd.py |
+| STAGE1 输出 | GLB 帧 | frames_glb/frame_000NN.glb + manifest.json |
+| Blender | 可执行 | tools/blender -> tools/blender-4.2.3-linux-x64/blender |
+| mmd_tools 源码 | — | tools/mmdtools_src |
 | STAGE2 工具 | ObjToSchematic | /workspace/objtoschematic_tool/（当前为空，需重新 clone + 放回驱动脚本） |
 | STAGE2 驱动 | run-ots-frame.ts / ots_hook.js | /workspace/objtoschematic_tool/tools/ |
 | STAGE2 调色板 | colourful | /workspace/objtoschematic_tool/res/palettes/colourful |
-| STAGE2 输出 | litematic | /workspace/mc-voxel-video/frames_ots/frame_0000N.litematic |
-| STAGE3 脚本 | build.mjs | /workspace/mc-voxel-video/player/build.mjs |
-| 网页数据 | frames.json | /workspace/mc-voxel-video/player/data/frames.json |
-| 方块贴图 | PNG | /workspace/mc-voxel-video/player/assets/block-textures/*.png |
-| 网页播放器 | index.html | /workspace/mc-voxel-video/player/index.html |
-| 参考查看器 | shulkr/mcblock 镜像 | /workspace/mc-voxel-video/ref-viewers/mcblock/bundle.zip |
-| 本文档 | USAGE | /workspace/mc-voxel-video/docs/USAGE.md |
+| STAGE2 输出 | litematic | frames_ots/frame_0000N.litematic |
+| STAGE3 脚本 | build.mjs | player/build.mjs |
+| 网页数据 | frames.json | player/data/frames.json |
+| 方块贴图 | PNG | player/assets/block-textures/*.png |
+| 网页播放器 | index.html | player/index.html |
+| 方块贴图(源) | mcblock 镜像 | player/assets/block-textures/（仓库自带，build.mjs 解包用；ref-viewers/ 为本地可选，未随仓库发布） |
+| 本文档 | USAGE | docs/USAGE.md |
 
 ---
 

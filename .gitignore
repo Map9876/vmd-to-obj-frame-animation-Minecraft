@@ -1,9 +1,21 @@
+# Python
 __pycache__/
 *.pyc
-*.glb
+
+# Media / large binaries not needed in repo
 *.mp4
-frames*/
-data/
-assets/
-node_modules/
+*.glb
 *.zip
+
+# Scratch / generated working dirs (kept local only)
+frames*/
+/downloads/
+/analysis/
+/tools/
+/assets/
+/ref-viewers/
+/schematics/
+/shots/
+node_modules/
+
+# Note: player/data/frames.json IS committed (demo data for the voxel web player, <100MB).
