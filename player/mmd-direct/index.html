@@ -61,7 +61,10 @@
 
   const helper = new MMDAnimationHelper({ afterglow: 0.0 });
   const loader = new MMDLoader();
-  const MODEL = 'models/' + encodeURIComponent('提弗洛斯.pmx');
+  const params = new URLSearchParams(location.search);
+  const modelParam = params.get('model');
+  const vmdParam = params.get('vmd');
+  const MODEL = 'models/' + (modelParam ? modelParam : encodeURIComponent('提弗洛斯.pmx'));
   const VMDS = {
     tda: 'models/' + encodeURIComponent('daybyday适用tda等通用版本.vmd'),
     yyb: 'models/' + encodeURIComponent('daybyday适用yyb版.vmd')
@@ -144,8 +147,15 @@
     controls.target.copy(c);
     camera.position.set(c.x + len * 0.35, c.y + len * 0.08, c.z + len * 0.95);
     controls.update();
-    setMotion('tda');
-    if (cameraOn) addCamera();
+    if (vmdParam) {
+      loader.loadAnimation('models/' + vmdParam, mesh, (anim) => {
+        helper.add(mesh, { animation: anim, physics: true }); meshAdded = true; playing = true;
+        document.getElementById('play').textContent = '暂停';
+      });
+    } else if (!modelParam) {
+      setMotion('tda');
+    }
+    if (cameraOn && !modelParam) addCamera();
     statusEl.textContent = '模型已加载 — 播放中';
     animate();
   }, (x) => { if (x.total) statusEl.textContent = '加载模型 ' + Math.round(x.loaded/x.total*100) + '%'; },
@@ -170,7 +180,7 @@
   document.getElementById('vmd').onchange = (e) => setMotion(e.target.value);
   document.getElementById('cam').onchange = (e) => {
     cameraOn = e.target.checked;
-    if (cameraOn) { addCamera(); }
+    if (cameraOn) { if (!modelParam) addCamera(); }
     else { if (cameraAdded) helper.remove(camera); cameraAdded = false; controls.enabled = true; }
   };
   window.addEventListener('resize', () => {
