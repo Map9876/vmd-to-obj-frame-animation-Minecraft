@@ -144,6 +144,8 @@ GLB 自带的 baseColor 贴图让 ObjToSchematic 按真实表面颜色分配方�
 
 **所以 STAGE 2 必须带 VOX=solid**（见第 4 节命令）。不带它就会得到你视频里那种雪花结果。
 
+> 重要更正：你录屏里真正的毛病是时空前后抖动（帧间抖），不是雪花。抖动是时间相干性问题，VOX=solid 只修雪花、修不了抖动。治抖动要换 STAGE 2 体素化思路：用 pipeline/b_anchor.py（方案 B）——每个三角形只分配一次固定方块类型（取第 0 帧顶点色），之后三角形随身体平移，方块身份不再逐帧重量化，颜色闪烁/抖动归零，且不需要 ObjToSchematic。颜色级闪烁还能再用 pipeline/stabilize_global.py 兜底。
+
 下面就是你那段录屏（已裁掉前 5 秒）的效果——这是错误示范，用来对照：
 
 ![体素化雪花/马赛克错误示范（未使用 VOX=solid）](voxel_snow_demo.gif)
