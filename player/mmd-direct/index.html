@@ -87,7 +87,7 @@
     if (/cloth/i.test(url)) return 'cloth';
     return 'skin';
   }
-  function makeEndfieldMaterial(s) {
+  function makeMaterial(s) {
     const catName = classify(s);
     const c = CAT[catName];
     const m = new THREE.MeshStandardMaterial({
@@ -95,40 +95,9 @@
       color: (s && s.color) ? s.color.clone() : new THREE.Color(0xffffff),
       transparent: !!(s && s.transparent), opacity: (s && s.opacity != null ? s.opacity : 1),
       side: (s && s.side) ? s.side : THREE.DoubleSide,
-      roughness: c.rough, metalness: 0.0
+      roughness: 0.85, metalness: 0.0
     });
-    m.onBeforeCompile = (shader) => {
-      shader.uniforms.uRimColor = { value: new THREE.Color(c.rim) };
-      shader.uniforms.uRimStrength = { value: c.rimStrength };
-      shader.uniforms.uRimPower = { value: c.rimPower };
-      shader.uniforms.uSSSColor = { value: new THREE.Color(c.sss) };
-      shader.uniforms.uSSSStrength = { value: c.sssStrength };
-      shader.uniforms.uSpecStrength = { value: c.spec };
-      shader.uniforms.uIsSkin = { value: catName === 'skin' ? 1.0 : 0.0 };
-      shader.uniforms.uIsCloth = { value: catName === 'cloth' ? 1.0 : 0.0 };
-      shader.fragmentShader = 'uniform vec3 uRimColor; uniform float uRimStrength; uniform float uRimPower;\n'
-        + 'uniform vec3 uSSSColor; uniform float uSSSStrength; uniform float uSpecStrength;\n'
-        + 'uniform float uIsSkin; uniform float uIsCloth;\n'
-        + shader.fragmentShader;
-      shader.fragmentShader = shader.fragmentShader.replace(
-        '#include <lights_fragment_end>',
-        '#include <lights_fragment_end>\n  {\n'
-        + '    vec3 vN = normalize( normal );\n'
-        + '    vec3 vV = normalize( vViewPosition );\n'
-        + '    float ndv = clamp( dot( vN, vV ), 0.0, 1.0 );\n'
-        + '    float rim = pow( 1.0 - ndv, uRimPower );\n'
-        + '    totalEmissiveRadiance += uRimColor * uRimStrength * rim;\n'
-        + '    if ( uIsSkin > 0.5 ) {\n'
-        + '      totalEmissiveRadiance += uSSSColor * uSSSStrength * (1.0 - ndv) * 0.18;\n'
-        + '    }\n'
-        + '    if ( uIsCloth > 0.5 ) {\n'
-        + '      float m = pow( ndv, 3.0 );\n'
-        + '      totalEmissiveRadiance += vec3(0.05,0.05,0.06) * m * uSpecStrength;\n'
-        + '    }\n'
-        + '  }'
-      );
-    };
-    m.customProgramCacheKey = () => 'endfield-' + catName;
+    return m;
     return m;
   }
 
@@ -137,7 +106,7 @@
     mmd.traverse((o) => {
       if (o.isMesh && o.material) {
         const mats = Array.isArray(o.material) ? o.material : [o.material];
-        const out = mats.map((s) => makeEndfieldMaterial(s));
+        const out = mats.map((s) => makeMaterial(s));
         o.material = Array.isArray(o.material) ? out : out[0];
       }
     });
