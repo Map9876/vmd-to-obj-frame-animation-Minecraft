@@ -1,0 +1,1 @@
+import{n as e,s as t}from"./jsx-runtime-Db0DjQYK.js";var n=t(e(),1);function r(){let[e,t]=(0,n.useState)(null);return(0,n.useEffect)(()=>{t(window.innerWidth>=1024&&!window.matchMedia(`(pointer: coarse)`).matches)},[]),e}export{r as t};

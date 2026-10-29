@@ -1,0 +1,1 @@
+var e=null;function t(t){e=t}function n(){if(!e)throw Error(`Public config not initialised — the root route loader must run before this is read.`);return e}export{t as n,n as t};

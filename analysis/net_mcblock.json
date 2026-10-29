@@ -1,0 +1,587 @@
+{
+  "info": {
+    "title": "自然喷泉·五 - Minecraft 建筑教程 | MCBlock",
+    "hasCanvas": true,
+    "canvasW": 767,
+    "canvasH": 676,
+    "webglAvailable": true,
+    "threeGlobal": false
+  },
+  "requests": [
+    "https://mcblock.top/buildings/5ee2396d-6639-4b26-a085-f6e37eb399a6",
+    "https://fancycg.oss-cn-beijing.aliyuncs.com/static/images/logo/logo-horizontal-mcblock.png",
+    "https://mcblock.top/_next/static/css/fbbe70978b2cd8ea.css",
+    "https://mcblock.top/_next/static/css/c6e12936a99e7b0c.css",
+    "https://mcblock.top/_next/static/css/15322e028e7d423a.css",
+    "https://mcblock.top/_next/static/css/dadb09f7b48ff03a.css",
+    "https://mcblock.top/_next/static/css/9a334b960876065b.css",
+    "https://mcblock.top/_next/static/css/638401a1bdb58592.css",
+    "https://mcblock.top/_next/static/css/b5b2d42a69ed71d7.css",
+    "https://mcblock.top/_next/static/css/f7847651ca39d127.css",
+    "https://mcblock.top/_next/static/chunks/webpack-28e6ba17f368ac1d.js",
+    "https://mcblock.top/_next/static/chunks/4bd1b696-100b9d70ed4e49c1.js",
+    "https://mcblock.top/_next/static/chunks/7391-dea9cbe687121139.js",
+    "https://mcblock.top/_next/static/chunks/main-app-2f2299daa667bdca.js",
+    "https://mcblock.top/_next/static/chunks/4053-e9db54ac62515e6e.js",
+    "https://mcblock.top/_next/static/chunks/2619-9ccafffbc59161a1.js",
+    "https://mcblock.top/_next/static/chunks/app/buildings/%5Bid%5D/error-2f8e2e9db9cd5a83.js",
+    "https://mcblock.top/_next/static/chunks/app/global-error-c2b670ae91e830fc.js",
+    "https://mcblock.top/_next/static/chunks/app/buildings/loading-78b7be83f1a02854.js",
+    "https://mcblock.top/_next/static/chunks/1733-49fe19ebf4fd4b70.js",
+    "https://mcblock.top/_next/static/chunks/8870-fe21c59382b68370.js",
+    "https://mcblock.top/_next/static/chunks/8304-afae619672d51069.js",
+    "https://mcblock.top/_next/static/chunks/5239-bea8a785b4fee2fa.js",
+    "https://mcblock.top/_next/static/chunks/6784-5a6b666cccd3db6d.js",
+    "https://mcblock.top/_next/static/chunks/2368-3a8e403bf637789f.js",
+    "https://mcblock.top/_next/static/chunks/6260-7eef7491fa5b1787.js",
+    "https://mcblock.top/_next/static/chunks/985-6c74b8b7ec758481.js",
+    "https://mcblock.top/_next/static/chunks/5748-353e138f0df9ec5b.js",
+    "https://mcblock.top/_next/static/chunks/app/layout-2348a7202d031fe0.js",
+    "https://mcblock.top/_next/static/chunks/app/error-b34d74d50f8dced0.js",
+    "https://mcblock.top/_next/static/chunks/app/not-found-7094ae4eaf9535f8.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-P5QMJ6H9ZH",
+    "https://mcblock.top/_next/static/chunks/7496-266ad9f30c420523.js",
+    "https://mcblock.top/_next/static/chunks/3715-0acb8f1597ca18c0.js",
+    "https://mcblock.top/_next/static/chunks/8187-983cab3302aa7a75.js",
+    "https://mcblock.top/_next/static/chunks/3902-069bc12897cf21bd.js",
+    "https://mcblock.top/_next/static/chunks/4836-99917535b2752020.js",
+    "https://mcblock.top/_next/static/chunks/9689-1f0394703fc0107c.js",
+    "https://mcblock.top/_next/static/chunks/app/buildings/%5Bid%5D/page-f6c744f514fe6163.js",
+    "https://mcblock.top/_next/static/media/c2b840274db78aea-s.p.woff2",
+    "https://mcblock.top/api/site-messages/active",
+    "https://mcblock.top/api/auth/session",
+    "https://mcblock.top/buildings/step-teaching?_rsc=rlcsv",
+    "https://mcblock.top/?_rsc=rlcsv",
+    "https://mcblock.top/buildings?_rsc=rlcsv",
+    "https://mcblock.top/studio?_rsc=rlcsv",
+    "https://mcblock.top/wallpapers?_rsc=rlcsv",
+    "https://www.google-analytics.com/g/collect?v=2&tid=G-P5QMJ6H9ZH&gtm=45je6aq0v9244255978za208zd9244255978xf1&_p=1793139789112&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=2114986964.1793139789&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1280x800&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=zh-cn&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120420416~120469145~120469153~121246026~121246034~123620776&sid=1793139789&sct=1&seg=0&dl=https%3A%2F%2Fmcblock.top%2Fbuildings%2F5ee2396d-6639-4b26-a085-f6e37eb399a6&dt=%E8%87%AA%E7%84%B6%E5%96%B7%E6%B3%89%C2%B7%E4%BA%94%20-%20Minecraft%20%E5%BB%BA%E7%AD%91%E6%95%99%E7%A8%8B%20%7C%20MCBlock&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=675",
+    "https://mcblock.top/_next/static/chunks/app/buildings/step-teaching/page-e9ee69a7b20f67e5.js",
+    "https://mcblock.top/blender?_rsc=rlcsv",
+    "https://mcblock.top/support?_rsc=rlcsv",
+    "https://mcblock.top/_next/static/css/2036f857ff0ec5ba.css",
+    "https://mcblock.top/_next/static/chunks/2f0b94e8-5c61605d3de5b71e.js",
+    "https://mcblock.top/_next/static/chunks/3668-08bd3e82f62158ac.js",
+    "https://mcblock.top/_next/static/chunks/9703-f565bf996480822d.js",
+    "https://mcblock.top/_next/static/chunks/4002-281446730369a94f.js",
+    "https://mcblock.top/_next/static/chunks/16-9cf1c0d7d3bf3714.js",
+    "https://mcblock.top/_next/static/chunks/app/studio/page-29e54f4affff056b.js",
+    "https://mcblock.top/_next/static/css/0bc70c53f88897bb.css",
+    "https://mcblock.top/_next/static/chunks/app/page-4e08622be3cb0584.js",
+    "https://mcblock.top/api/buildings/5ee2396d-6639-4b26-a085-f6e37eb399a6",
+    "https://mcblock.top/_next/static/css/23fc0bc39bbb976e.css",
+    "https://mcblock.top/_next/static/chunks/app/blender/page-c7cfdffe03240ae4.js",
+    "https://mcblock.top/login?_rsc=rlcsv",
+    "https://mcblock.top/register?_rsc=rlcsv",
+    "https://mcblock.top/api/buildings/5ee2396d-6639-4b26-a085-f6e37eb399a6/favorite",
+    "https://mcblock.top/api/buildings?tag=%E7%8E%B0%E4%BB%A3&limit=8",
+    "https://mcblock.top/_next/static/chunks/bd904a5c-3bfe4f66dc4cf84b.js",
+    "https://mcblock.top/_next/static/chunks/b536a0f1-58424d457382e9e6.js",
+    "https://mcblock.top/_next/static/chunks/1329d575-913930d6a3ee9f96.js",
+    "https://mcblock.top/_next/static/chunks/a3cd4a83-ef05d0e0f511a612.js",
+    "https://mcblock.top/_next/static/chunks/f6211eb1-ff7e1dda25e1e9ca.js",
+    "https://mcblock.top/_next/static/chunks/1379-40aa3de555dc7dc2.js",
+    "https://mcblock.top/_next/static/chunks/4405-646bed54d12df33f.js",
+    "https://mcblock.top/_next/static/chunks/5535-3a19207b5e241bd1.js",
+    "https://mcblock.top/_next/static/chunks/5243-e51b9aaf908de3ba.js",
+    "https://mcblock.top/_next/static/chunks/7323-eacbf8ad4e6efe15.js",
+    "https://mcblock.top/_next/static/chunks/8931-ad1ed1af2d8955bb.js",
+    "https://mcblock.top/_next/static/chunks/9568-b76ca4f673d1fd3f.js",
+    "https://mcblock.top/_next/static/chunks/4336-cdd75d56c26fc67a.js",
+    "https://mcblock.top/_next/static/chunks/5188-36ad1f11f881b045.js",
+    "https://mcblock.top/_next/static/chunks/6910-e8cfd249ccc64f19.js",
+    "https://mcblock.top/_next/static/chunks/2724.0bf381d120b50cfd.js",
+    "https://mcblock.top/_next/static/chunks/7045-62e7c79e0fe675d4.js",
+    "https://mcblock.top/_next/static/chunks/app/(auth)/register/page-ed8b67c60e61bd50.js",
+    "https://mcblock.top/_next/static/chunks/app/(auth)/register/loading-6a49cbc7d000ad49.js",
+    "https://mcblock.top/_next/static/chunks/app/(auth)/login/page-a01d91b9068dadac.js",
+    "https://mcblock.top/_next/static/chunks/app/(auth)/login/loading-6a49cbc7d000ad49.js",
+    "https://mcblock.top/uploads/buildings/blockID/releases/java-26.3-mcblock-v1.3/bundle.zip",
+    "https://mcblock.top/feedback?category=content&buildingId=5ee2396d-6639-4b26-a085-f6e37eb399a6&_rsc=rlcsv",
+    "https://mcblock.top/report?buildingId=5ee2396d-6639-4b26-a085-f6e37eb399a6&intent=removal&_rsc=rlcsv",
+    "https://mcblock.top/api/settings/renderer-config",
+    "https://mcblock.top/_next/static/chunks/0f8af13e-5bb414bc1200fef1.js",
+    "https://mcblock.top/_next/static/chunks/c15bf2b0.c59ed6c02f757fc5.js",
+    "https://mcblock.top/_next/static/chunks/3127-95bfa1ac770c76fe.js",
+    "https://mcblock.top/_next/static/chunks/7605.f868a49795fa4b9a.js",
+    "https://mcblock.top/_next/static/chunks/4502-774b2a6d9668df9d.js",
+    "https://mcblock.top/_next/static/chunks/2868-8e01c93a2ce8dadb.js",
+    "https://mcblock.top/_next/static/chunks/8652-86eec651febe4503.js",
+    "https://mcblock.top/_next/static/chunks/1828-51b5a01cd556b479.js",
+    "https://mcblock.top/_next/static/chunks/3373.9654791fcbc9329c.js",
+    "https://mcblock.top/_next/static/chunks/470.9248a5bd53b8a859.js",
+    "https://mcblock.top/_next/static/chunks/1449.4b1a021719dccbe1.js",
+    "https://mcblock.top/_next/static/chunks/5211.eba7b30fe33775e5.js",
+    "https://mcblock.top/api/buildings/5ee2396d-6639-4b26-a085-f6e37eb399a6/projection?v=1gr07w9&identity=22913be93ab2431c8d0b6efdf372cb12752749af57fe1118435e16f9e3908295",
+    "https://cdn.mcblock.top/uploads/buildings/covers/8a017590-37d8-460c-accf-b29a03b6e8f0.webp",
+    "https://cdn.mcblock.top/uploads/buildings/covers/8ce476b1-0be4-4df8-a002-93782b92b813.webp",
+    "https://cdn.mcblock.top/uploads/buildings/covers/d58d3a11-726f-4694-93e3-657c09baf155.webp",
+    "https://cdn.mcblock.top/uploads/buildings/covers/2e4a6cc9-2a9f-4824-9c61-da5ac10a53a4.webp",
+    "https://cdn.mcblock.top/uploads/buildings/covers/d11704e9-9b3c-4200-be30-abfce86d600c.webp",
+    "https://cdn.mcblock.top/uploads/buildings/covers/46e045a6-b41f-481d-b199-b9b2d19bba54.webp",
+    "https://cdn.mcblock.top/uploads/buildings/covers/5ab5287e-3428-4264-80bf-5b134bf0a510.webp",
+    "https://cdn.mcblock.top/uploads/buildings/covers/ea77efba-cdae-41c4-a1f1-cf08874bbc7c.webp"
+  ],
+  "responses": [
+    {
+      "url": "https://mcblock.top/buildings/5ee2396d-6639-4b26-a085-f6e37eb399a6",
+      "ct": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/css/c6e12936a99e7b0c.css",
+      "ct": "text/css; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/css/fbbe70978b2cd8ea.css",
+      "ct": "text/css; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/css/9a334b960876065b.css",
+      "ct": "text/css; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/css/15322e028e7d423a.css",
+      "ct": "text/css; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/css/dadb09f7b48ff03a.css",
+      "ct": "text/css; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/css/638401a1bdb58592.css",
+      "ct": "text/css; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/css/b5b2d42a69ed71d7.css",
+      "ct": "text/css; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/css/f7847651ca39d127.css",
+      "ct": "text/css; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/webpack-28e6ba17f368ac1d.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/985-6c74b8b7ec758481.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/main-app-2f2299daa667bdca.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/6260-7eef7491fa5b1787.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/5239-bea8a785b4fee2fa.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/4053-e9db54ac62515e6e.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/app/buildings/%5Bid%5D/error-2f8e2e9db9cd5a83.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/6784-5a6b666cccd3db6d.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/app/buildings/loading-78b7be83f1a02854.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/8304-afae619672d51069.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/app/global-error-c2b670ae91e830fc.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/2619-9ccafffbc59161a1.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/2368-3a8e403bf637789f.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/8870-fe21c59382b68370.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/1733-49fe19ebf4fd4b70.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/4bd1b696-100b9d70ed4e49c1.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://fancycg.oss-cn-beijing.aliyuncs.com/static/images/logo/logo-horizontal-mcblock.png",
+      "ct": "image/png"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/7391-dea9cbe687121139.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/media/c2b840274db78aea-s.p.woff2",
+      "ct": "font/woff2"
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-P5QMJ6H9ZH",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/app/buildings/%5Bid%5D/page-f6c744f514fe6163.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/4836-99917535b2752020.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/app/not-found-7094ae4eaf9535f8.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/3902-069bc12897cf21bd.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/app/error-b34d74d50f8dced0.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/3715-0acb8f1597ca18c0.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/8187-983cab3302aa7a75.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/app/layout-2348a7202d031fe0.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/5748-353e138f0df9ec5b.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/9689-1f0394703fc0107c.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/7496-266ad9f30c420523.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/api/site-messages/active",
+      "ct": "application/json"
+    },
+    {
+      "url": "https://mcblock.top/api/auth/session",
+      "ct": "application/json"
+    },
+    {
+      "url": "https://mcblock.top/buildings/step-teaching?_rsc=rlcsv",
+      "ct": "text/x-component"
+    },
+    {
+      "url": "https://mcblock.top/buildings?_rsc=rlcsv",
+      "ct": "text/x-component"
+    },
+    {
+      "url": "https://mcblock.top/wallpapers?_rsc=rlcsv",
+      "ct": "text/x-component"
+    },
+    {
+      "url": "https://mcblock.top/studio?_rsc=rlcsv",
+      "ct": "text/x-component"
+    },
+    {
+      "url": "https://mcblock.top/?_rsc=rlcsv",
+      "ct": "text/x-component"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/app/buildings/step-teaching/page-e9ee69a7b20f67e5.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/blender?_rsc=rlcsv",
+      "ct": "text/x-component"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/css/2036f857ff0ec5ba.css",
+      "ct": "text/css; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/support?_rsc=rlcsv",
+      "ct": "text/x-component"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/3668-08bd3e82f62158ac.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/2f0b94e8-5c61605d3de5b71e.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/9703-f565bf996480822d.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/app/studio/page-29e54f4affff056b.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/4002-281446730369a94f.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/16-9cf1c0d7d3bf3714.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/css/0bc70c53f88897bb.css",
+      "ct": "text/css; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/app/page-4e08622be3cb0584.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/css/23fc0bc39bbb976e.css",
+      "ct": "text/css; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/app/blender/page-c7cfdffe03240ae4.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/api/buildings/5ee2396d-6639-4b26-a085-f6e37eb399a6",
+      "ct": "application/json"
+    },
+    {
+      "url": "https://mcblock.top/register?_rsc=rlcsv",
+      "ct": "text/x-component"
+    },
+    {
+      "url": "https://mcblock.top/login?_rsc=rlcsv",
+      "ct": "text/x-component"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-P5QMJ6H9ZH&gtm=45je6aq0v9244255978za208zd9244255978xf1&_p=1793139789112&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=2114986964.1793139789&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1280x800&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=zh-cn&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120420416~120469145~120469153~121246026~121246034~123620776&sid=1793139789&sct=1&seg=0&dl=https%3A%2F%2Fmcblock.top%2Fbuildings%2F5ee2396d-6639-4b26-a085-f6e37eb399a6&dt=%E8%87%AA%E7%84%B6%E5%96%B7%E6%B3%89%C2%B7%E4%BA%94%20-%20Minecraft%20%E5%BB%BA%E7%AD%91%E6%95%99%E7%A8%8B%20%7C%20MCBlock&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=675",
+      "ct": "text/plain"
+    },
+    {
+      "url": "https://mcblock.top/api/buildings/5ee2396d-6639-4b26-a085-f6e37eb399a6/favorite",
+      "ct": "application/json"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/1329d575-913930d6a3ee9f96.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/a3cd4a83-ef05d0e0f511a612.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/f6211eb1-ff7e1dda25e1e9ca.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/1379-40aa3de555dc7dc2.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/api/buildings?tag=%E7%8E%B0%E4%BB%A3&limit=8",
+      "ct": "application/json"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/bd904a5c-3bfe4f66dc4cf84b.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/b536a0f1-58424d457382e9e6.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/4405-646bed54d12df33f.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/5535-3a19207b5e241bd1.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/6910-e8cfd249ccc64f19.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/5188-36ad1f11f881b045.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/5243-e51b9aaf908de3ba.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/7323-eacbf8ad4e6efe15.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/app/(auth)/login/loading-6a49cbc7d000ad49.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/8931-ad1ed1af2d8955bb.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/4336-cdd75d56c26fc67a.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/app/(auth)/login/page-a01d91b9068dadac.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/9568-b76ca4f673d1fd3f.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/app/(auth)/register/loading-6a49cbc7d000ad49.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/7045-62e7c79e0fe675d4.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/app/(auth)/register/page-ed8b67c60e61bd50.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/2724.0bf381d120b50cfd.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/uploads/buildings/blockID/releases/java-26.3-mcblock-v1.3/bundle.zip",
+      "ct": "application/zip"
+    },
+    {
+      "url": "https://mcblock.top/feedback?category=content&buildingId=5ee2396d-6639-4b26-a085-f6e37eb399a6&_rsc=rlcsv",
+      "ct": "text/x-component"
+    },
+    {
+      "url": "https://mcblock.top/report?buildingId=5ee2396d-6639-4b26-a085-f6e37eb399a6&intent=removal&_rsc=rlcsv",
+      "ct": "text/x-component"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/0f8af13e-5bb414bc1200fef1.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/3127-95bfa1ac770c76fe.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/api/settings/renderer-config",
+      "ct": "application/json"
+    },
+    {
+      "url": "https://mcblock.top/api/buildings/5ee2396d-6639-4b26-a085-f6e37eb399a6/projection?v=1gr07w9&identity=22913be93ab2431c8d0b6efdf372cb12752749af57fe1118435e16f9e3908295",
+      "ct": "application/octet-stream"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/c15bf2b0.c59ed6c02f757fc5.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/7605.f868a49795fa4b9a.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/4502-774b2a6d9668df9d.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://cdn.mcblock.top/uploads/buildings/covers/d11704e9-9b3c-4200-be30-abfce86d600c.webp",
+      "ct": "image/webp"
+    },
+    {
+      "url": "https://cdn.mcblock.top/uploads/buildings/covers/8ce476b1-0be4-4df8-a002-93782b92b813.webp",
+      "ct": "image/webp"
+    },
+    {
+      "url": "https://cdn.mcblock.top/uploads/buildings/covers/8a017590-37d8-460c-accf-b29a03b6e8f0.webp",
+      "ct": "image/webp"
+    },
+    {
+      "url": "https://cdn.mcblock.top/uploads/buildings/covers/46e045a6-b41f-481d-b199-b9b2d19bba54.webp",
+      "ct": "image/webp"
+    },
+    {
+      "url": "https://cdn.mcblock.top/uploads/buildings/covers/d58d3a11-726f-4694-93e3-657c09baf155.webp",
+      "ct": "image/webp"
+    },
+    {
+      "url": "https://cdn.mcblock.top/uploads/buildings/covers/2e4a6cc9-2a9f-4824-9c61-da5ac10a53a4.webp",
+      "ct": "image/webp"
+    },
+    {
+      "url": "https://cdn.mcblock.top/uploads/buildings/covers/5ab5287e-3428-4264-80bf-5b134bf0a510.webp",
+      "ct": "image/webp"
+    },
+    {
+      "url": "https://cdn.mcblock.top/uploads/buildings/covers/ea77efba-cdae-41c4-a1f1-cf08874bbc7c.webp",
+      "ct": "image/webp"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/2868-8e01c93a2ce8dadb.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/8652-86eec651febe4503.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/3373.9654791fcbc9329c.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/1828-51b5a01cd556b479.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/470.9248a5bd53b8a859.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/1449.4b1a021719dccbe1.js",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://mcblock.top/_next/static/chunks/5211.eba7b30fe33775e5.js",
+      "ct": "application/javascript; charset=UTF-8"
+    }
+  ],
+  "console": [
+    "warning: [.WebGL-0x71c01243400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "warning: [.WebGL-0x71c01243400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "warning: [.WebGL-0x71c01243400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)",
+    "warning: The resource https://mcblock.top/_next/static/css/0bc70c53f88897bb.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+    "warning: The resource https://mcblock.top/_next/static/css/23fc0bc39bbb976e.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+    "warning: The resource https://mcblock.top/_next/static/css/2036f857ff0ec5ba.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."
+  ]
+}

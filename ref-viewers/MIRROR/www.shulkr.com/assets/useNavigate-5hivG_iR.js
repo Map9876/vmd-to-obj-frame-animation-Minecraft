@@ -1,0 +1,1 @@
+import{n as e,s as t}from"./jsx-runtime-Db0DjQYK.js";import{o as n}from"./useStore-DX_rDZVw.js";var r=t(e(),1);function i(e){let t=n();return r.useCallback(n=>t.navigate({...n,from:n.from??e?.from}),[e?.from,t])}export{i as t};

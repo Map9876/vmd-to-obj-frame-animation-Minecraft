@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-Db0DjQYK.js";import{t}from"./method-guide-SCS1R54j.js";var n=e(),r=()=>(0,n.jsx)(t,{id:`bedrock`});export{r as component};

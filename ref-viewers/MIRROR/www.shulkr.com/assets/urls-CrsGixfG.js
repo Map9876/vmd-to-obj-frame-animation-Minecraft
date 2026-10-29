@@ -1,0 +1,1 @@
+import{n as e}from"./routing-Gv_vGkrc.js";var t={width:1200,height:630};function n(n,r){return{url:e(`/og/landing.png`,n,r),width:t.width,height:t.height}}function r(n,r,i,a,o){return{url:e(`/og/content/${n}/${r}.png`,i,a),width:t.width,height:t.height,alt:o}}export{n,r as t};

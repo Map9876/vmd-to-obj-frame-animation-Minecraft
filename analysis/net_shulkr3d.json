@@ -1,0 +1,326 @@
+{
+  "info": {
+    "hasCanvas": true,
+    "w": 926,
+    "h": 722
+  },
+  "imgReqs": [
+    "https://cdn.shulkr.com/cdn-cgi/image/width=960,quality=75,format=auto/renders/x8wC0VrUWICz/iso-ne.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/x8wC0VrUWICz/iso-ne.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/x8wC0VrUWICz/iso-nw.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/x8wC0VrUWICz/iso-se.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/x8wC0VrUWICz/iso-sw.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/x8wC0VrUWICz/top.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=400,quality=75,format=auto/renders/KHuNC11Kt899/iso-ne.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=400,quality=75,format=auto/renders/6WbrVYSwIXDd/iso-ne.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=400,quality=75,format=auto/renders/KZAgrDaG0IqJ/iso-ne.png",
+    "https://www.shulkr.com/assets/blocks-BAw4PJ9b.js",
+    "https://www.shulkr.com/assets/turnstile-z7FheHKD.js",
+    "https://www.shulkr.com/assets/use-block-info-CeYLX_FI.js",
+    "https://www.shulkr.com/assets/blockStateParser-3kR-Ucao.js",
+    "https://www.shulkr.com/landing/ai-tower.webp",
+    "https://www.shulkr.com/landing/ai-garden.webp",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/neEXwocqrYnx/iso-ne.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/UafTppxfL5c0/iso-ne.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/UfHcbqOM4Ce7/iso-ne.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/vA0pM6dSTd2y/iso-ne.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/oAXgAzcwK6Je/iso-ne.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/ZPOcOIxrJ4sz/iso-ne.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/1M8fj2ClSA4g/iso-ne.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/KHuNC11Kt899/iso-ne.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/wy8BmSemZHle/iso-ne.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/8pmaSys2MZBx/iso-ne.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/uccxcoE6yjyx/iso-ne.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/cbPiSQDMCas5/iso-ne.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/CeDaRAoKv9Fl/iso-ne.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/pMp1y97y6NQp/iso-ne.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/5Rdh5fNn9sVh/iso-ne.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/PDcUyh76IJFD/iso-ne.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/gQfmAELsmi9m/iso-ne.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/Lw31o5tAiK6U/iso-ne.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/WNRSoPC5pX5d/iso-ne.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/sj8YZB4qJXQg/iso-ne.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/VBiIaCRJTpE3/iso-ne.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/EJmX0ZusXiYc/iso-ne.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/S06CcTz4e1sl/iso-ne.png",
+    "https://s.nitropay.com/1.gif?x=1&adslot=",
+    "https://ad-delivery.net/px.gif?ch=2&e=0.02461800992727059",
+    "https://ad-delivery.net/px.gif?ch=1&e=0.34522466984388156",
+    "https://ad-delivery.net/px.gif?ch=1&e=0.7232807990245504",
+    "https://ad-delivery.net/px.gif?ch=2&e=0.059368498834506234",
+    "https://ad-delivery.net/px.gif?ch=2&e=0.7084408380829638",
+    "https://ad-delivery.net/px.gif?ch=1&e=0.76283930405625",
+    "https://ad-delivery.net/px.gif?ch=1&e=0.635940744781286",
+    "https://ad-delivery.net/px.gif?ch=2&e=0.37083493659617073",
+    "https://ad-delivery.net/px.gif?ch=2&e=0.48379474664800104",
+    "https://ad-delivery.net/px.gif?ch=2&e=0.8484610080821646",
+    "https://ad-delivery.net/px.gif?ch=2&e=0.6954928919794955"
+  ],
+  "texResponses": [
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=960,quality=75,format=auto/renders/x8wC0VrUWICz/iso-ne.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/x8wC0VrUWICz/iso-ne.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/x8wC0VrUWICz/top.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/x8wC0VrUWICz/iso-nw.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/x8wC0VrUWICz/iso-sw.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/x8wC0VrUWICz/iso-se.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=400,quality=75,format=auto/renders/KHuNC11Kt899/iso-ne.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=400,quality=75,format=auto/renders/6WbrVYSwIXDd/iso-ne.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=400,quality=75,format=auto/renders/KZAgrDaG0IqJ/iso-ne.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://www.shulkr.com/landing/ai-tower.webp",
+      "ct": "image/webp",
+      "status": 200
+    },
+    {
+      "url": "https://www.shulkr.com/landing/ai-garden.webp",
+      "ct": "image/webp",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/neEXwocqrYnx/iso-ne.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/UafTppxfL5c0/iso-ne.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/UfHcbqOM4Ce7/iso-ne.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/vA0pM6dSTd2y/iso-ne.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/oAXgAzcwK6Je/iso-ne.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/ZPOcOIxrJ4sz/iso-ne.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/1M8fj2ClSA4g/iso-ne.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/KHuNC11Kt899/iso-ne.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/wy8BmSemZHle/iso-ne.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/8pmaSys2MZBx/iso-ne.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/uccxcoE6yjyx/iso-ne.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://s.nitropay.com/1.gif?x=1&adslot=",
+      "ct": "image/gif",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/cbPiSQDMCas5/iso-ne.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/pMp1y97y6NQp/iso-ne.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/CeDaRAoKv9Fl/iso-ne.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/PDcUyh76IJFD/iso-ne.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/5Rdh5fNn9sVh/iso-ne.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/gQfmAELsmi9m/iso-ne.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/Lw31o5tAiK6U/iso-ne.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/sj8YZB4qJXQg/iso-ne.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/VBiIaCRJTpE3/iso-ne.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/WNRSoPC5pX5d/iso-ne.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/EJmX0ZusXiYc/iso-ne.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/S06CcTz4e1sl/iso-ne.png",
+      "ct": "image/avif",
+      "status": 200
+    },
+    {
+      "url": "https://ad.doubleclick.net/favicon.ico?ad=300x250&ad_box_=1&adnet=1&showad=1&size=250x250&e=0.03689536989514719",
+      "ct": "image/x-icon",
+      "status": 200
+    },
+    {
+      "url": "https://ad.doubleclick.net/favicon.ico?ad=300x250&ad_box_=1&adnet=1&showad=1&size=250x250&e=0.41752932802364995",
+      "ct": "image/x-icon",
+      "status": 200
+    },
+    {
+      "url": "https://ad-delivery.net/px.gif?ch=1&e=0.34522466984388156",
+      "ct": "image/gif",
+      "status": 200
+    },
+    {
+      "url": "https://ad-delivery.net/px.gif?ch=2&e=0.02461800992727059",
+      "ct": "image/gif",
+      "status": 200
+    },
+    {
+      "url": "https://ad-delivery.net/px.gif?ch=1&e=0.7232807990245504",
+      "ct": "image/gif",
+      "status": 200
+    },
+    {
+      "url": "https://ad-delivery.net/px.gif?ch=2&e=0.059368498834506234",
+      "ct": "image/gif",
+      "status": 200
+    },
+    {
+      "url": "https://ad.doubleclick.net/favicon.ico?ad=300x250&ad_box_=1&adnet=1&showad=1&size=250x250&e=0.1094008000498371",
+      "ct": "image/x-icon",
+      "status": 200
+    },
+    {
+      "url": "https://ad-delivery.net/px.gif?ch=1&e=0.76283930405625",
+      "ct": "image/gif",
+      "status": 200
+    },
+    {
+      "url": "https://ad-delivery.net/px.gif?ch=2&e=0.7084408380829638",
+      "ct": "image/gif",
+      "status": 200
+    },
+    {
+      "url": "https://ad.doubleclick.net/favicon.ico?ad=300x250&ad_box_=1&adnet=1&showad=1&size=250x250&e=0.37597403238137306",
+      "ct": "image/x-icon",
+      "status": 200
+    },
+    {
+      "url": "https://ad-delivery.net/px.gif?ch=1&e=0.635940744781286",
+      "ct": "image/gif",
+      "status": 200
+    },
+    {
+      "url": "https://ad-delivery.net/px.gif?ch=2&e=0.37083493659617073",
+      "ct": "image/gif",
+      "status": 200
+    },
+    {
+      "url": "https://ad.doubleclick.net/favicon.ico?ad=300x250&ad_box_=1&adnet=1&showad=1&size=250x250&e=0.7195193604814654",
+      "ct": "image/x-icon",
+      "status": 200
+    },
+    {
+      "url": "https://ad.doubleclick.net/favicon.ico?ad=300x250&ad_box_=1&adnet=1&showad=1&size=250x250&e=0.9319724794976515",
+      "ct": "image/x-icon",
+      "status": 200
+    },
+    {
+      "url": "https://ad-delivery.net/px.gif?ch=2&e=0.48379474664800104",
+      "ct": "image/gif",
+      "status": 200
+    },
+    {
+      "url": "https://ad.doubleclick.net/favicon.ico?ad=300x250&ad_box_=1&adnet=1&showad=1&size=250x250&e=0.8580030852267019",
+      "ct": "image/x-icon",
+      "status": 200
+    },
+    {
+      "url": "https://ad-delivery.net/px.gif?ch=2&e=0.8484610080821646",
+      "ct": "image/gif",
+      "status": 200
+    },
+    {
+      "url": "https://ad-delivery.net/px.gif?ch=2&e=0.6954928919794955",
+      "ct": "image/gif",
+      "status": 200
+    }
+  ]
+}

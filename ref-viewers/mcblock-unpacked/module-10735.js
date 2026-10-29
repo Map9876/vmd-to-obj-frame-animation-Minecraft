@@ -1,0 +1,37 @@
+export let A = require(30313).A("outline", "torii", "Torii", [
+    [
+        "path",
+        {
+            d: "M4 4c5.333 1.333 10.667 1.333 16 0",
+            key: "svg-0"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M4 8h16",
+            key: "svg-1"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M12 5v3",
+            key: "svg-2"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M18 4.5v15.5",
+            key: "svg-3"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M6 4.5v15.5",
+            key: "svg-4"
+        }
+    ]
+]);

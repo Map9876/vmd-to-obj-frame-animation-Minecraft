@@ -1,0 +1,1 @@
+export let O = globalThis;

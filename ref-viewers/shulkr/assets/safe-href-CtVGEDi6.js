@@ -1,0 +1,1 @@
+var e=new Set([`http:`,`https:`,`mailto:`]),t=`https://shulkr.com`;function n(n){if(!n)return;let r;try{r=new URL(n,t)}catch{return}return e.has(r.protocol)?n:void 0}function r(e){if(!e)return;let t;try{t=new URL(e)}catch{return}return t.protocol===`http:`||t.protocol===`https:`?t.href:void 0}export{n,r as t};

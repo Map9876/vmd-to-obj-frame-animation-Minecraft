@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-Db0DjQYK.js";import{t}from"./route-messages-9yrojIBL.js";import{a as n,u as r}from"./index-DmN1rqCo.js";import{n as i}from"./directory-content-C4lTU84b.js";var a=e();function o(){let{messages:e}=n.useLoaderData();return(0,a.jsx)(t,{messages:e,children:(0,a.jsx)(i,{data:r(`styles`,n.useParams())})})}export{o as component};

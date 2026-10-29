@@ -1,0 +1,1 @@
+var e=[400,960,1280];function t(e){let t;try{t=new URL(e)}catch{return null}return t.hostname===`cdn.shulkr.com`?t:null}function n(e,n,r=75){let i=t(e);return i?`${i.origin}/cdn-cgi/image/width=${n},quality=${r},format=auto${i.pathname}`:e}function r(r,i=e,a=75){return t(r)?i.map(e=>`${n(r,e,a)} ${e}w`).join(`, `):``}export{r as n,n as t};

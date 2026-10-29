@@ -1,0 +1,1 @@
+function e(e,t,n=(e,t)=>e===t){return e.length===t.length&&e.every((e,r)=>n(e,t[r]))}function t(e){return e==null?void 0:`${e}-label`}function n(e,t){return e??t}function r(e){return Array.isArray(e)?e.map(e=>r(e)).join(`,`):e==null?``:String(e)}export{e as i,t as n,n as r,r as t};

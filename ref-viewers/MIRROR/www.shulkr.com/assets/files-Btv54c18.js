@@ -1,0 +1,1 @@
+function e(e,t){let{files:n,primaryFileId:r}=e;return(t===void 0?void 0:n.find(e=>e.id===t))??n.find(e=>e.id===r)??n[0]??null}export{e as t};

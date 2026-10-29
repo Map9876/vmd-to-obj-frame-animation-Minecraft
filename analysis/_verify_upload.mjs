@@ -1,0 +1,18 @@
+import { chromium } from 'playwright';
+const errors = [];
+const browser = await chromium.launch({ args: ['--use-gl=swiftshader','--ignore-gpu-blocklist'] });
+const page = await browser.newPage({ viewport: { width: 1100, height: 720 } });
+page.on('pageerror', e => errors.push('PAGEERROR: ' + e.message));
+page.on('console', m => { if (/error|exception|fail/i.test(m.type()+m.text())) errors.push('CONSOLE: '+m.type()+': '+m.text()); });
+await page.goto('http://localhost:8123/player/index.html', { waitUntil: 'networkidle', timeout: 60000 });
+await page.waitForSelector('#ui', { state: 'visible', timeout: 60000 }).catch(()=>{});
+const blkAnim = await page.textContent('#blk').catch(()=>'0');
+console.log('animation loaded, blk=', blkAnim, 'errors so far:', errors.length);
+await page.setInputFiles('#file', '/workspace/mc-voxel-video/frames_ots/frame_00001.litematic');
+await page.waitForFunction(() => document.getElementById('backBtn').style.display !== 'none', { timeout: 60000 }).catch(()=>{});
+await page.waitForTimeout(2000);
+const blkUp = await page.textContent('#blk').catch(()=>'0');
+const loadingHidden = await page.evaluate(() => document.getElementById('loading').style.display === 'none');
+await page.screenshot({ path: '/tmp/upload_shot.png' });
+console.log('AFTER UPLOAD: blk=', blkUp, 'loadingHidden=', loadingHidden, 'errors:', errors.length ? errors.join('\n') : 'none');
+await browser.close();

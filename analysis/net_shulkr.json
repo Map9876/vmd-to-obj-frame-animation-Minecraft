@@ -1,0 +1,720 @@
+{
+  "info": {
+    "title": "tree farm for create - Minecraft Schematic - Shulkr",
+    "hasCanvas": false,
+    "canvasW": 0,
+    "canvasH": 0,
+    "webglAvailable": true,
+    "threeGlobal": false
+  },
+  "requests": [
+    "https://www.shulkr.com/zh/schematics/zASw919KD2Ov/tree-farm-for-create",
+    "https://www.shulkr.com/assets/styles-CQLjHRn2.css",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=960,quality=75,format=auto/renders/x8wC0VrUWICz/iso-ne.png",
+    "https://www.shulkr.com/assets/index-DmN1rqCo.js",
+    "https://www.shulkr.com/assets/jsx-runtime-Db0DjQYK.js",
+    "https://www.shulkr.com/assets/preload-helper-zJ_50EbN.js",
+    "https://www.shulkr.com/assets/eligibility-C9acEVc6.js",
+    "https://www.shulkr.com/assets/browser-I-D20JeN.js",
+    "https://www.shulkr.com/assets/session-BGIR8kU0.js",
+    "https://www.shulkr.com/assets/cache-BfojtyIM.js",
+    "https://www.shulkr.com/assets/public--pAhXrd8.js",
+    "https://www.shulkr.com/assets/current-Bq9r6xhE.js",
+    "https://www.shulkr.com/assets/route-messages-9yrojIBL.js",
+    "https://www.shulkr.com/assets/routing-Gv_vGkrc.js",
+    "https://www.shulkr.com/assets/translator-pPqc4oNS.js",
+    "https://www.shulkr.com/assets/keys-CMeqocw_.js",
+    "https://www.shulkr.com/assets/queries-DlYwNVUA.js",
+    "https://www.shulkr.com/assets/urls-CrsGixfG.js",
+    "https://www.shulkr.com/assets/meta-C9WvV8WX.js",
+    "https://www.shulkr.com/assets/catalog.fn-Cn2xplr-.js",
+    "https://www.shulkr.com/assets/schematics.fn-ef_wVIH4.js",
+    "https://www.shulkr.com/assets/utils-B6KiDbIe.js",
+    "https://www.shulkr.com/assets/DialogTitle-C5xtVamj.js",
+    "https://www.shulkr.com/assets/useScrollLock-B98zsivK.js",
+    "https://www.shulkr.com/assets/dist-7IP26fql.js",
+    "https://www.shulkr.com/assets/createBaseUIEventDetails-Df69IYx-.js",
+    "https://www.shulkr.com/assets/owner-Bmp_Sgwo.js",
+    "https://www.shulkr.com/assets/react-LvWBhTF7.js",
+    "https://www.shulkr.com/assets/useSuspenseQuery-BRxKcF3h.js",
+    "https://www.shulkr.com/assets/ClientOnly-BiCdmN1s.js",
+    "https://www.shulkr.com/assets/link-C5CNVKC3.js",
+    "https://www.shulkr.com/assets/useStore-DX_rDZVw.js",
+    "https://www.shulkr.com/assets/route-BDnB4cU9.js",
+    "https://www.shulkr.com/assets/useNavigate-5hivG_iR.js",
+    "https://www.shulkr.com/assets/redirect-Coy-z-9D.js",
+    "https://www.shulkr.com/assets/root-DLTE-HSj.js",
+    "https://www.shulkr.com/assets/createServerFn-CUM7qdJ1.js",
+    "https://www.shulkr.com/assets/lib-BH1Zsaz9.js",
+    "https://www.shulkr.com/assets/createLucideIcon-BB7uFOth.js",
+    "https://www.shulkr.com/assets/box-DpWO1Dds.js",
+    "https://www.shulkr.com/assets/sparkles-CxMPHlBM.js",
+    "https://www.shulkr.com/assets/coerce-DKh1SG0-.js",
+    "https://www.shulkr.com/assets/schemas-Y3Thg5L-.js",
+    "https://www.shulkr.com/assets/dist-C5TDMOul.js",
+    "https://www.shulkr.com/assets/route-Dz-Y2OIJ.js",
+    "https://www.shulkr.com/assets/_id._-_slug_-Dlji_cem.js",
+    "https://www.shulkr.com/assets/page-references-BFXztOXo.js",
+    "https://www.shulkr.com/assets/user-name-Doik7BrP.js",
+    "https://www.shulkr.com/assets/_id._-_slug_-fTAN9a7h.js",
+    "https://www.shulkr.com/assets/shulkr-loader-BlIlXoJ4.js",
+    "https://www.shulkr.com/assets/files-Btv54c18.js",
+    "https://www.shulkr.com/assets/jetbrains-mono-latin-wght-normal-B9CIFXIH.woff2",
+    "https://www.shulkr.com/assets/pixelify-sans-latin-wght-normal-Cbhn5ptY.woff2",
+    "https://www.shulkr.com/fonts/ark-pixel-12px-zh-cn.woff2",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/x8wC0VrUWICz/iso-ne.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/x8wC0VrUWICz/iso-nw.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/x8wC0VrUWICz/iso-se.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/x8wC0VrUWICz/iso-sw.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/x8wC0VrUWICz/top.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=400,quality=75,format=auto/renders/KHuNC11Kt899/iso-ne.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=400,quality=75,format=auto/renders/6WbrVYSwIXDd/iso-ne.png",
+    "https://cdn.shulkr.com/cdn-cgi/image/width=400,quality=75,format=auto/renders/KZAgrDaG0IqJ/iso-ne.png",
+    "https://www.shulkr.com/assets/useSearch-DY9YFgkc.js",
+    "https://www.shulkr.com/assets/dist-C66QuM2X.js",
+    "https://www.shulkr.com/assets/catalog-card-Cn9CUBJ7.js",
+    "https://www.shulkr.com/assets/cdn-image-1M_j1Bpf.js",
+    "https://www.shulkr.com/assets/eye-CjLziyKY.js",
+    "https://www.shulkr.com/assets/heart-Da-1zYQ4.js",
+    "https://www.shulkr.com/assets/markdown-nXGeLLbi.js",
+    "https://www.shulkr.com/assets/safe-href-CtVGEDi6.js",
+    "https://www.shulkr.com/assets/parts-DB0m3djM.js",
+    "https://www.shulkr.com/assets/copy-Cb6l5SEl.js",
+    "https://www.shulkr.com/assets/badge-uBGdfrIZ.js",
+    "https://www.shulkr.com/assets/dialog-ClhsnmFs.js",
+    "https://www.shulkr.com/assets/DialogDescription-CTeYCIgA.js",
+    "https://www.shulkr.com/assets/label-C6-rizCR.js",
+    "https://www.shulkr.com/assets/popover-Dkz5qr_F.js",
+    "https://www.shulkr.com/assets/switch-HfGl6Tzw.js",
+    "https://www.shulkr.com/assets/useRegisterFieldControl-DiRFoMvR.js",
+    "https://www.shulkr.com/assets/identity-DKkH2Mq0.js",
+    "https://www.shulkr.com/assets/CompositeRoot-DGe-NMIR.js",
+    "https://www.shulkr.com/assets/textarea-CNdUQNni.js",
+    "https://www.shulkr.com/assets/query-pI4UeOiZ.js",
+    "https://www.shulkr.com/assets/blocks-BAw4PJ9b.js",
+    "https://www.shulkr.com/assets/hammer-CE-GXFeU.js",
+    "https://www.shulkr.com/assets/link-2-DBm7yD3x.js",
+    "https://www.shulkr.com/assets/lock-DY-nPLss.js",
+    "https://www.shulkr.com/assets/mail-DzuWh0IN.js",
+    "https://www.shulkr.com/assets/pencil-ruler-ndmIqfrF.js",
+    "https://www.shulkr.com/assets/play-DPEFnGPk.js",
+    "https://www.shulkr.com/assets/search-BlPxHO6p.js",
+    "https://www.shulkr.com/assets/server-D7Yxzr-j.js",
+    "https://api.shulkr.com/auth/me",
+    "https://www.shulkr.com/assets/module-hl6rLTMU.js",
+    "https://api.shulkr.com/schematics/zASw919KD2Ov/view",
+    "https://api.shulkr.com/schematics/zASw919KD2Ov/stats",
+    "https://api.shulkr.com/schematics/zASw919KD2Ov/comments?page=1",
+    "https://s.nitropay.com/ads-2598.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-XK6BVEMB9K",
+    "https://j.shulkr.com/static/exception-autocapture.js?v=1.376.2",
+    "https://j.shulkr.com/array/phc_wuJgWi4gciwXXnJzbjEKX2BHktefwM6hSrQ3zrGAF2CN/config.js",
+    "https://j.shulkr.com/flags/?v=2&ip=0&_=1793139780834&ver=1.376.2&compression=base64",
+    "https://www.shulkr.com/landing/ai-tower.webp",
+    "https://www.google-analytics.com/g/collect?v=2&tid=G-XK6BVEMB9K&gtm=45je6aq1v9256349262za200zd9256349262xf1&_p=1793139779255&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAAC&cid=1087915218.1793139781&frm=0&ngs=1&pscdl=noapi&rcb=7&sr=1280x800&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=zh-cn&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&dl=https%3A%2F%2Fwww.shulkr.com%2Fzh%2Fschematics%2FzASw919KD2Ov%2Ftree-farm-for-create&dp=%2Fzh%2Fschematics%2FzASw919KD2Ov%2Ftree-farm-for-create&dt=tree%20farm%20for%20create%20-%20Minecraft%20Schematic%20-%20Shulkr&sid=1793139781&sct=1&seg=0&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=2676",
+    "https://stats.g.doubleclick.net/g/collect?v=2&ngs=1&tid=G-XK6BVEMB9K&cid=1087915218.1793139781&gtm=45je6aq1v9256349262za200zd9256349262xf1&rcb=7&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034",
+    "https://floors.nitropay.com/f?s=2598&c=CN&v=2",
+    "https://ats-wrapper.privacymanager.io/ats-modules/438cb908-ed61-41e9-b716-05d5f4122a64/ats.js",
+    "https://s.nitropay.com/ads-video.5c1599a31fce163f0bf0.js",
+    "https://s.nitropay.com/ads-standalone.1df6cd936943385c5056.js",
+    "https://s.nitropay.com/1.gif?x=1&adslot=",
+    "https://gum.criteo.com/sid/json?origin=prebid&topUrl=https%3A%2F%2Fwww.shulkr.com%2F&domain=www.shulkr.com&cw=1&lsw=1",
+    "https://id5-sync.com/api/config/prebid",
+    "https://cdn.id5-sync.com/api/1.0/id5PrebidModule.js",
+    "https://api.rlcdn.com/api/identity/envelope?pid=14333",
+    "https://match.adsrvr.org/track/rid?ttd_pid=tpfrvh0&fmt=json",
+    "https://s.nitropay.com/ads-arcspan.8fc7578a2d00f8aa7a18.js",
+    "https://s.nitropay.com/ads-captify.2015da149c7dcef90582.js",
+    "https://s.nitropay.com/gpp-8687d72.min.js",
+    "https://c.amazon-adsystem.com/aax2/apstag.js",
+    "https://btloader.com/tag?o=6278260873756672&upapi=true",
+    "https://geo.privacymanager.io/",
+    "https://geo.privacymanager.io/",
+    "https://consent.nitrocnct.com/additional-consent-providers.csv",
+    "https://cdn.btloader.com/cchecker.html?upapi=true",
+    "https://ad-delivery.net/px.gif?ch=2&e=0.3190481983799067",
+    "https://ad.doubleclick.net/favicon.ico?ad=300x250&ad_box_=1&adnet=1&showad=1&size=250x250&e=0.7726106610071004",
+    "https://ad-delivery.net/px.gif?ch=1&e=0.715064844787121",
+    "https://ab.dns-finder.com/meta/dns",
+    "https://btloader.com/trustedIframe.html?o=6278260873756672&upapi=true",
+    "https://cdn.api.btloader.com/device?orgid=6278260873756672&fullVersionList=%5B%7B%22brand%22%3A%22Not%3AA-Brand%22%2C%22version%22%3A%228.0.0.0%22%7D%2C%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22156.0.8078.4%22%7D%2C%7B%22brand%22%3A%22HeadlessChrome%22%2C%22version%22%3A%22156.0.8078.4%22%7D%5D&upapi=true",
+    "https://config.aps.amazon-adsystem.com/configs/da657530-03e5-4306-95bc-d4eb370426c9",
+    "https://c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js",
+    "https://cdn.hadronid.net/hadron.js?url=https%3A%2F%2Fwww.shulkr.com%2Fzh%2Fschematics%2FzASw919KD2Ov%2Ftree-farm-for-create&ref=&_it=amazon&partner_id=720",
+    "https://cdn.id5-sync.com/api/1.0/id5-api.js",
+    "https://tags.crwdcntrl.net/lt/c/16576/sync.min.js",
+    "https://secure.cdn.fastclick.net/js/pubcid/latest/pubcid.min.js",
+    "https://ad-delivery.net/px.gif?ch=1&e=0.9702282075238039",
+    "https://ad-delivery.net/px.gif?ch=2&e=0.4253491785738669",
+    "https://api.id5-sync.com/analytics/1528/id5-api-js",
+    "https://a.ad.gt/api/v1/u/matches/720?_it=nitro",
+    "https://bcp.crwdcntrl.net/6/map?xcid=16576",
+    "https://id5-sync.com/bounce",
+    "https://lbs.eu-1-id5-sync.com/lbs/v1",
+    "https://lb.eu-1-id5-sync.com/lb/v1",
+    "https://id5-sync.com/gm/v3"
+  ],
+  "responses": [
+    {
+      "url": "https://www.shulkr.com/zh/schematics/zASw919KD2Ov/tree-farm-for-create",
+      "ct": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/styles-CQLjHRn2.css",
+      "ct": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/public--pAhXrd8.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/cache-BfojtyIM.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/session-BGIR8kU0.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/browser-I-D20JeN.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/preload-helper-zJ_50EbN.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/eligibility-C9acEVc6.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/jsx-runtime-Db0DjQYK.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/pixelify-sans-latin-wght-normal-Cbhn5ptY.woff2",
+      "ct": "font/woff2"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/routing-Gv_vGkrc.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/current-Bq9r6xhE.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/translator-pPqc4oNS.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/queries-DlYwNVUA.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/keys-CMeqocw_.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/urls-CrsGixfG.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/meta-C9WvV8WX.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/schematics.fn-ef_wVIH4.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/catalog.fn-Cn2xplr-.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/route-messages-9yrojIBL.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/utils-B6KiDbIe.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/useSuspenseQuery-BRxKcF3h.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/createBaseUIEventDetails-Df69IYx-.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/ClientOnly-BiCdmN1s.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/owner-Bmp_Sgwo.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/DialogTitle-C5xtVamj.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/useScrollLock-B98zsivK.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/dist-7IP26fql.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/react-LvWBhTF7.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/useStore-DX_rDZVw.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/route-BDnB4cU9.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/link-C5CNVKC3.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/useNavigate-5hivG_iR.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/redirect-Coy-z-9D.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/root-DLTE-HSj.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/createServerFn-CUM7qdJ1.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/index-DmN1rqCo.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/jetbrains-mono-latin-wght-normal-B9CIFXIH.woff2",
+      "ct": "font/woff2"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/createLucideIcon-BB7uFOth.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/box-DpWO1Dds.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/sparkles-CxMPHlBM.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/coerce-DKh1SG0-.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/lib-BH1Zsaz9.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/schemas-Y3Thg5L-.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=960,quality=75,format=auto/renders/x8wC0VrUWICz/iso-ne.png",
+      "ct": "image/avif"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/route-Dz-Y2OIJ.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/_id._-_slug_-Dlji_cem.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/_id._-_slug_-fTAN9a7h.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/dist-C5TDMOul.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/user-name-Doik7BrP.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/page-references-BFXztOXo.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/shulkr-loader-BlIlXoJ4.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/files-Btv54c18.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/x8wC0VrUWICz/iso-ne.png",
+      "ct": "image/avif"
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/x8wC0VrUWICz/iso-nw.png",
+      "ct": "image/avif"
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/x8wC0VrUWICz/iso-se.png",
+      "ct": "image/avif"
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/x8wC0VrUWICz/iso-sw.png",
+      "ct": "image/avif"
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=192,quality=75,format=auto/renders/x8wC0VrUWICz/top.png",
+      "ct": "image/avif"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/useSearch-DY9YFgkc.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/dist-C66QuM2X.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=400,quality=75,format=auto/renders/KHuNC11Kt899/iso-ne.png",
+      "ct": "image/avif"
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=400,quality=75,format=auto/renders/6WbrVYSwIXDd/iso-ne.png",
+      "ct": "image/avif"
+    },
+    {
+      "url": "https://cdn.shulkr.com/cdn-cgi/image/width=400,quality=75,format=auto/renders/KZAgrDaG0IqJ/iso-ne.png",
+      "ct": "image/avif"
+    },
+    {
+      "url": "https://www.shulkr.com/fonts/ark-pixel-12px-zh-cn.woff2",
+      "ct": "font/woff2"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/catalog-card-Cn9CUBJ7.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/safe-href-CtVGEDi6.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/parts-DB0m3djM.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/label-C6-rizCR.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/switch-HfGl6Tzw.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/useRegisterFieldControl-DiRFoMvR.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/hammer-CE-GXFeU.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/CompositeRoot-DGe-NMIR.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/heart-Da-1zYQ4.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/blocks-BAw4PJ9b.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/popover-Dkz5qr_F.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/identity-DKkH2Mq0.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/markdown-nXGeLLbi.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/link-2-DBm7yD3x.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/badge-uBGdfrIZ.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/textarea-CNdUQNni.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/dialog-ClhsnmFs.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/DialogDescription-CTeYCIgA.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/server-D7Yxzr-j.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/cdn-image-1M_j1Bpf.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/query-pI4UeOiZ.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/lock-DY-nPLss.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/play-DPEFnGPk.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/mail-DzuWh0IN.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/search-BlPxHO6p.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/pencil-ruler-ndmIqfrF.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/copy-Cb6l5SEl.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/eye-CjLziyKY.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.shulkr.com/assets/module-hl6rLTMU.js",
+      "ct": "text/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://api.shulkr.com/auth/me",
+      "ct": "application/json; charset=utf-8"
+    },
+    {
+      "url": "https://api.shulkr.com/schematics/zASw919KD2Ov/stats",
+      "ct": "application/json; charset=utf-8"
+    },
+    {
+      "url": "https://api.shulkr.com/schematics/zASw919KD2Ov/view",
+      "ct": ""
+    },
+    {
+      "url": "https://api.shulkr.com/schematics/zASw919KD2Ov/comments?page=1",
+      "ct": "application/json; charset=utf-8"
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-XK6BVEMB9K",
+      "ct": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.shulkr.com/landing/ai-tower.webp",
+      "ct": "image/webp"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XK6BVEMB9K&gtm=45je6aq1v9256349262za200zd9256349262xf1&_p=1793139779255&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAAC&cid=1087915218.1793139781&frm=0&ngs=1&pscdl=noapi&rcb=7&sr=1280x800&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=zh-cn&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&dl=https%3A%2F%2Fwww.shulkr.com%2Fzh%2Fschematics%2FzASw919KD2Ov%2Ftree-farm-for-create&dp=%2Fzh%2Fschematics%2FzASw919KD2Ov%2Ftree-farm-for-create&dt=tree%20farm%20for%20create%20-%20Minecraft%20Schematic%20-%20Shulkr&sid=1793139781&sct=1&seg=0&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=2676",
+      "ct": "text/plain"
+    },
+    {
+      "url": "https://j.shulkr.com/static/exception-autocapture.js?v=1.376.2",
+      "ct": "application/javascript"
+    },
+    {
+      "url": "https://j.shulkr.com/array/phc_wuJgWi4gciwXXnJzbjEKX2BHktefwM6hSrQ3zrGAF2CN/config.js",
+      "ct": "application/javascript"
+    },
+    {
+      "url": "https://j.shulkr.com/flags/?v=2&ip=0&_=1793139780834&ver=1.376.2&compression=base64",
+      "ct": "application/json"
+    },
+    {
+      "url": "https://s.nitropay.com/ads-2598.js",
+      "ct": "text/javascript"
+    },
+    {
+      "url": "https://s.nitropay.com/1.gif?x=1&adslot=",
+      "ct": "image/gif"
+    },
+    {
+      "url": "https://match.adsrvr.org/track/rid?ttd_pid=tpfrvh0&fmt=json",
+      "ct": "application/json"
+    },
+    {
+      "url": "https://s.nitropay.com/ads-video.5c1599a31fce163f0bf0.js",
+      "ct": "text/javascript"
+    },
+    {
+      "url": "https://s.nitropay.com/ads-standalone.1df6cd936943385c5056.js",
+      "ct": "text/javascript"
+    },
+    {
+      "url": "https://ats-wrapper.privacymanager.io/ats-modules/438cb908-ed61-41e9-b716-05d5f4122a64/ats.js",
+      "ct": "application/javascript"
+    },
+    {
+      "url": "https://floors.nitropay.com/f?s=2598&c=CN&v=2",
+      "ct": "application/json"
+    },
+    {
+      "url": "https://geo.privacymanager.io/",
+      "ct": "application/json"
+    },
+    {
+      "url": "https://s.nitropay.com/ads-arcspan.8fc7578a2d00f8aa7a18.js",
+      "ct": "text/javascript"
+    },
+    {
+      "url": "https://s.nitropay.com/ads-captify.2015da149c7dcef90582.js",
+      "ct": "text/javascript"
+    },
+    {
+      "url": "https://geo.privacymanager.io/",
+      "ct": "application/json"
+    },
+    {
+      "url": "https://s.nitropay.com/gpp-8687d72.min.js",
+      "ct": "text/javascript"
+    },
+    {
+      "url": "https://cdn.id5-sync.com/api/1.0/id5PrebidModule.js",
+      "ct": "text/javascript;charset=utf-8"
+    },
+    {
+      "url": "https://gum.criteo.com/sid/json?origin=prebid&topUrl=https%3A%2F%2Fwww.shulkr.com%2F&domain=www.shulkr.com&cw=1&lsw=1",
+      "ct": "application/json; charset=utf-8"
+    },
+    {
+      "url": "https://btloader.com/tag?o=6278260873756672&upapi=true",
+      "ct": "application/javascript"
+    },
+    {
+      "url": "https://c.amazon-adsystem.com/aax2/apstag.js",
+      "ct": "application/javascript"
+    },
+    {
+      "url": "https://consent.nitrocnct.com/additional-consent-providers.csv",
+      "ct": "text/csv"
+    },
+    {
+      "url": "https://btloader.com/trustedIframe.html?o=6278260873756672&upapi=true",
+      "ct": "text/html"
+    },
+    {
+      "url": "https://cdn.btloader.com/cchecker.html?upapi=true",
+      "ct": "text/html"
+    },
+    {
+      "url": "https://ad-delivery.net/px.gif?ch=2&e=0.3190481983799067",
+      "ct": "image/gif"
+    },
+    {
+      "url": "https://ad-delivery.net/px.gif?ch=1&e=0.715064844787121",
+      "ct": "image/gif"
+    },
+    {
+      "url": "https://config.aps.amazon-adsystem.com/configs/da657530-03e5-4306-95bc-d4eb370426c9",
+      "ct": "application/javascript"
+    },
+    {
+      "url": "https://cdn.api.btloader.com/device?orgid=6278260873756672&fullVersionList=%5B%7B%22brand%22%3A%22Not%3AA-Brand%22%2C%22version%22%3A%228.0.0.0%22%7D%2C%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22156.0.8078.4%22%7D%2C%7B%22brand%22%3A%22HeadlessChrome%22%2C%22version%22%3A%22156.0.8078.4%22%7D%5D&upapi=true",
+      "ct": "text/plain; charset=utf-8"
+    },
+    {
+      "url": "https://c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js",
+      "ct": "application/javascript"
+    },
+    {
+      "url": "https://ab.dns-finder.com/meta/dns",
+      "ct": "text/plain; charset=utf-8"
+    },
+    {
+      "url": "https://ad-delivery.net/px.gif?ch=1&e=0.9702282075238039",
+      "ct": "image/gif"
+    },
+    {
+      "url": "https://cdn.id5-sync.com/api/1.0/id5-api.js",
+      "ct": "text/javascript;charset=utf-8"
+    },
+    {
+      "url": "https://ad-delivery.net/px.gif?ch=2&e=0.4253491785738669",
+      "ct": "image/gif"
+    },
+    {
+      "url": "https://cdn.hadronid.net/hadron.js?url=https%3A%2F%2Fwww.shulkr.com%2Fzh%2Fschematics%2FzASw919KD2Ov%2Ftree-farm-for-create&ref=&_it=amazon&partner_id=720",
+      "ct": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://tags.crwdcntrl.net/lt/c/16576/sync.min.js",
+      "ct": "text/javascript"
+    },
+    {
+      "url": "https://api.id5-sync.com/analytics/1528/id5-api-js",
+      "ct": "application/json"
+    },
+    {
+      "url": "https://secure.cdn.fastclick.net/js/pubcid/latest/pubcid.min.js",
+      "ct": "application/javascript"
+    },
+    {
+      "url": "https://lbs.eu-1-id5-sync.com/lbs/v1",
+      "ct": "application/json"
+    }
+  ],
+  "console": [
+    "error: Failed to load resource: the server responded with a status of 401 ()",
+    "warning: fun-hooks: referenced 'firstPartyData' but it was never created",
+    "warning: [.WebGL-0x71c01168800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "info: NitroAds: Loaded.  Version: 202601006 f114e00, Geo: CN GD Timeout: 2200.",
+    "error: Access to fetch at 'https://id5-sync.com/api/config/prebid' from origin 'https://www.shulkr.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+    "error: Failed to load resource: net::ERR_FAILED",
+    "error: Failed to load resource: the server responded with a status of 403 ()",
+    "error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+    "error: SYNC.JS: Aborting due to error contacting Lotame's servers. Error reason was ''.",
+    "error: Access to fetch at 'https://id5-sync.com/bounce' from origin 'https://www.shulkr.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+    "error: Failed to load resource: net::ERR_FAILED",
+    "error: Access to fetch at 'https://lb.eu-1-id5-sync.com/lb/v1' from origin 'https://www.shulkr.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+    "error: Failed to load resource: net::ERR_FAILED",
+    "error: Access to XMLHttpRequest at 'https://id5-sync.com/gm/v3' from origin 'https://www.shulkr.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+    "error: Failed to load resource: net::ERR_FAILED"
+  ]
+}

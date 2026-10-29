@@ -1,0 +1,21 @@
+import { chromium } from 'playwright';
+import fs from 'fs';
+const OUT = '/workspace/mc-voxel-video/analysis';
+const browser = await chromium.launch();
+const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+const page = await ctx.newPage();
+const imgReqs = [], allReqs = [], texResponses = [];
+page.on('request', r => { allReqs.push(r.url()); if (/\.(png|jpe?g|webp|gif)(\?|$)/i.test(r.url()) || /texture|block|tile|atlas/i.test(r.url())) imgReqs.push(r.url()); });
+page.on('response', r => { const ct = r.headers()['content-type'] || ''; if (/image/i.test(ct)) texResponses.push({ url: r.url(), ct, status: r.status() }); });
+try { await page.goto('https://www.shulkr.com/zh/schematics/zASw919KD2Ov/tree-farm-for-create?view=3d', { waitUntil: 'domcontentloaded', timeout: 60000 }); } catch (e) { console.log('goto', e.message); }
+await page.waitForTimeout(12000);
+const info = await page.evaluate(() => { const c = document.querySelector('canvas'); return { hasCanvas: !!c, w: c?c.width:0, h: c?c.height:0 }; });
+console.log('shulkr 3D info:', JSON.stringify(info));
+console.log('image-ish requests:', imgReqs.length);
+console.log(imgReqs.slice(0, 40).join('\n'));
+console.log('image responses:', texResponses.length);
+texResponses.slice(0, 40).forEach(r => console.log('  ' + r.status + ' ' + r.ct + ' ' + r.url));
+fs.writeFileSync(OUT + '/net_shulkr3d.json', JSON.stringify({ info, imgReqs, texResponses }, null, 2));
+await page.screenshot({ path: OUT + '/shulkr_3d.png' }).catch(()=>{});
+await browser.close();
+console.log('DONE');

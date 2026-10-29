@@ -1,0 +1,1 @@
+import{Br as e}from"./index-DmN1rqCo.js";var t=e;export{t as component};

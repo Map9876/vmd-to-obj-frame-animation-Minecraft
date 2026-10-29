@@ -2,20 +2,13 @@
 __pycache__/
 *.pyc
 
-# Media / large binaries not needed in repo
-*.mp4
-*.glb
+# Files over GitHub's 100MB hard limit (cannot be pushed as normal git objects;
+# use Git LFS or a Release for these if needed)
+downloads/zzz_eby_bunnygirl_resources.rar
+tools/blender.tar.xz
+tools/blender-4.2.3-linux-x64/blender
+tools/blender-4.2.3-linux-x64/lib/libcycles_kernel_oneapi_aot.so
+
+# Archives (downloaded assets / broken partial downloads)
 *.zip
-
-# Scratch / generated working dirs (kept local only)
-frames*/
-/downloads/
-/analysis/
-/tools/
-/assets/
-/ref-viewers/
-/schematics/
-/shots/
-node_modules/
-
-# Note: player/data/frames.json IS committed (demo data for the voxel web player, <100MB).
+*.tar.xz

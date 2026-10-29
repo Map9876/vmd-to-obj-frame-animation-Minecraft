@@ -1,0 +1,185 @@
+{
+  "grid": 64,
+  "frames": [
+    {
+      "idx": 1,
+      "npy": "vox_00001.npy",
+      "ppm": "proj_00001.ppm",
+      "voxels": 15338
+    },
+    {
+      "idx": 2,
+      "npy": "vox_00002.npy",
+      "ppm": "proj_00002.ppm",
+      "voxels": 15557
+    },
+    {
+      "idx": 3,
+      "npy": "vox_00003.npy",
+      "ppm": "proj_00003.ppm",
+      "voxels": 15704
+    },
+    {
+      "idx": 4,
+      "npy": "vox_00004.npy",
+      "ppm": "proj_00004.ppm",
+      "voxels": 16556
+    },
+    {
+      "idx": 5,
+      "npy": "vox_00005.npy",
+      "ppm": "proj_00005.ppm",
+      "voxels": 16324
+    },
+    {
+      "idx": 6,
+      "npy": "vox_00006.npy",
+      "ppm": "proj_00006.ppm",
+      "voxels": 16676
+    },
+    {
+      "idx": 7,
+      "npy": "vox_00007.npy",
+      "ppm": "proj_00007.ppm",
+      "voxels": 16741
+    },
+    {
+      "idx": 8,
+      "npy": "vox_00008.npy",
+      "ppm": "proj_00008.ppm",
+      "voxels": 16540
+    },
+    {
+      "idx": 9,
+      "npy": "vox_00009.npy",
+      "ppm": "proj_00009.ppm",
+      "voxels": 16580
+    },
+    {
+      "idx": 10,
+      "npy": "vox_00010.npy",
+      "ppm": "proj_00010.ppm",
+      "voxels": 16652
+    },
+    {
+      "idx": 11,
+      "npy": "vox_00011.npy",
+      "ppm": "proj_00011.ppm",
+      "voxels": 16346
+    },
+    {
+      "idx": 12,
+      "npy": "vox_00012.npy",
+      "ppm": "proj_00012.ppm",
+      "voxels": 16321
+    },
+    {
+      "idx": 13,
+      "npy": "vox_00013.npy",
+      "ppm": "proj_00013.ppm",
+      "voxels": 16462
+    },
+    {
+      "idx": 14,
+      "npy": "vox_00014.npy",
+      "ppm": "proj_00014.ppm",
+      "voxels": 16140
+    },
+    {
+      "idx": 15,
+      "npy": "vox_00015.npy",
+      "ppm": "proj_00015.ppm",
+      "voxels": 16572
+    },
+    {
+      "idx": 16,
+      "npy": "vox_00016.npy",
+      "ppm": "proj_00016.ppm",
+      "voxels": 16647
+    },
+    {
+      "idx": 17,
+      "npy": "vox_00017.npy",
+      "ppm": "proj_00017.ppm",
+      "voxels": 16829
+    },
+    {
+      "idx": 18,
+      "npy": "vox_00018.npy",
+      "ppm": "proj_00018.ppm",
+      "voxels": 16665
+    },
+    {
+      "idx": 19,
+      "npy": "vox_00019.npy",
+      "ppm": "proj_00019.ppm",
+      "voxels": 16562
+    },
+    {
+      "idx": 20,
+      "npy": "vox_00020.npy",
+      "ppm": "proj_00020.ppm",
+      "voxels": 16376
+    },
+    {
+      "idx": 21,
+      "npy": "vox_00021.npy",
+      "ppm": "proj_00021.ppm",
+      "voxels": 16071
+    },
+    {
+      "idx": 22,
+      "npy": "vox_00022.npy",
+      "ppm": "proj_00022.ppm",
+      "voxels": 16574
+    },
+    {
+      "idx": 23,
+      "npy": "vox_00023.npy",
+      "ppm": "proj_00023.ppm",
+      "voxels": 17977
+    },
+    {
+      "idx": 24,
+      "npy": "vox_00024.npy",
+      "ppm": "proj_00024.ppm",
+      "voxels": 16518
+    },
+    {
+      "idx": 25,
+      "npy": "vox_00025.npy",
+      "ppm": "proj_00025.ppm",
+      "voxels": 17988
+    },
+    {
+      "idx": 26,
+      "npy": "vox_00026.npy",
+      "ppm": "proj_00026.ppm",
+      "voxels": 16613
+    },
+    {
+      "idx": 27,
+      "npy": "vox_00027.npy",
+      "ppm": "proj_00027.ppm",
+      "voxels": 16625
+    },
+    {
+      "idx": 28,
+      "npy": "vox_00028.npy",
+      "ppm": "proj_00028.ppm",
+      "voxels": 16860
+    },
+    {
+      "idx": 29,
+      "npy": "vox_00029.npy",
+      "ppm": "proj_00029.ppm",
+      "voxels": 16364
+    },
+    {
+      "idx": 30,
+      "npy": "vox_00030.npy",
+      "ppm": "proj_00030.ppm",
+      "voxels": 16339
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+import{_ as e,t}from"./schemas-Y3Thg5L-.js";function n(n){return e(t,n)}export{n as t};

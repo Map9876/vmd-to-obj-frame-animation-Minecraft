@@ -1,0 +1,1 @@
+import{n as e,s as t}from"./jsx-runtime-Db0DjQYK.js";var n=t(e(),1),r=n.createContext(void 0),i={disableStyleElements:!1};function a(){return n.useContext(r)??i}function o(e,t=-(2**53-1),n=2**53-1){return Math.max(t,Math.min(e,n))}export{a as n,o as t};

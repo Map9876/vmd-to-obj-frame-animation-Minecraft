@@ -1,0 +1,22 @@
+const fs=require('fs');
+const NBT=require('prismarine-nbt');
+const f='/workspace/mc-voxel-video/frames_ots/frame_00001.litematic';
+const buf=fs.readFileSync(f);
+NBT.parse(buf).then(async function(r){
+  const parsed=r.parsed;
+  const region=parsed.value.Regions.value.Unnamed;
+  const bs=region.value.BlockStates;
+  console.log('BlockStates type:', bs.type, 'len', bs.value.length, 'elem0:', JSON.stringify(bs.value[0]), 'typeof', typeof bs.value[0]);
+  const pal=region.value.BlockStatePalette.value.value;
+  console.log('palette[0]:', JSON.stringify(pal[0]));
+  console.log('palette[1]:', JSON.stringify(pal[1]));
+  const out=await NBT.write(parsed,'gzip_zip');
+  fs.writeFileSync('/tmp/rt.litematic', out);
+  console.log('orig size', buf.length, 'rewritten', out.length);
+  const rep=await NBT.parse(out);
+  const region2=rep.parsed.value.Regions.value.Unnamed;
+  const bs2=region2.value.BlockStates;
+  console.log('rt BlockStates len', bs2.value.length, 'elem0', JSON.stringify(bs2.value[0]));
+  const pal2=region2.value.BlockStatePalette.value.value;
+  console.log('rt palette len', pal2.length, 'palette[0]', JSON.stringify(pal2[0]));
+}).catch(function(e){console.error('ERR',e);process.exit(1);});

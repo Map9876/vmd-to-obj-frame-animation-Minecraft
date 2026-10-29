@@ -1,0 +1,13 @@
+export let i_ = "sentry.source";
+export let sy = "sentry.sample_rate";
+export let Ef = "sentry.previous_trace_sample_rate";
+export let uT = "sentry.op";
+export let JD = "sentry.origin";
+export let fs = "sentry.idle_span_finish_reason";
+export let Sn = "sentry.measurement_unit";
+export let xc = "sentry.measurement_value";
+export let Le = "sentry.custom_span_name";
+export let E1 = "sentry.profile_id";
+export let jG = "sentry.exclusive_time";
+export let Lc = "sentry.link.type";
+export let Fy = "gen_ai.conversation.id";

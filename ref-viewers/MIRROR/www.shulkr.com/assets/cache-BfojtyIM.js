@@ -1,0 +1,1 @@
+var e=`public, max-age=0, s-maxage=60, stale-while-revalidate=300`,t=`public, max-age=0, s-maxage=3600, stale-while-revalidate=86400`,n=`private, no-store`;export{t as n,e as r,n as t};

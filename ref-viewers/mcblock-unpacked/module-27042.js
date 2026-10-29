@@ -1,0 +1,16 @@
+export let A = require(30313).A("outline", "history", "History", [
+    [
+        "path",
+        {
+            d: "M12 8l0 4l2 2",
+            key: "svg-0"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M3.05 11a9 9 0 1 1 .5 4m-.5 5v-5h5",
+            key: "svg-1"
+        }
+    ]
+]);

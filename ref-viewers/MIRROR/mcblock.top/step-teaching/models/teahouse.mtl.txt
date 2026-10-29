@@ -1,0 +1,425 @@
+# MCBlock Materials
+
+newmtl hay_block
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl moss_carpet
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl wildflowers_c_ffffff
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl wildflowers_c_7cbd6b
+Ka 0.2 0.2 0.2
+Kd 0.4863 0.7412 0.4196
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl vine
+Ka 0.2 0.2 0.2
+Kd 0.4670 0.6710 0.1840
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl barrel
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl campfire
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl moss_block
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl beehive
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl azalea
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl azalea_leaves
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl spruce_fence
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl flowering_azalea_leaves
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl short_grass
+Ka 0.2 0.2 0.2
+Kd 0.5690 0.7410 0.3490
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl chiseled_tuff_bricks
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl polished_tuff
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl tall_grass
+Ka 0.2 0.2 0.2
+Kd 0.5690 0.7410 0.3490
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl bamboo
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl oak_planks
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl potted_azalea_bush
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl bush
+Ka 0.2 0.2 0.2
+Kd 0.4863 0.7412 0.4196
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl potted_flowering_azalea_bush
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl decorated_pot
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl tuff_brick_stairs
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl spruce_trapdoor
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl chiseled_tuff
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl tuff_bricks
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl spruce_shelf
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl furnace
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl spruce_button
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl cartography_table
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl spruce_stairs
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl spruce_door
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl flowering_azalea
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl stripped_spruce_log
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl white_concrete
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl flower_pot
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl oak_trapdoor
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl candle
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl oak_door
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl lantern
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl lever
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl spruce_hanging_sign
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl spruce_fence_gate
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl dark_oak_stairs
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl deepslate_brick_stairs
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl deepslate_bricks
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl white_wall_banner_c_f9f9f9
+Ka 0.2 0.2 0.2
+Kd 0.9765 0.9765 0.9765
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl white_wall_banner_c_734d33
+Ka 0.2 0.2 0.2
+Kd 0.4500 0.3000 0.2000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl deepslate_brick_slab
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl dark_oak_trapdoor
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl deepslate_brick_wall
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png
+
+newmtl spruce_planks
+Ka 0.2 0.2 0.2
+Kd 1.0000 1.0000 1.0000
+Ks 0.0 0.0 0.0
+d 1.00
+illum 1
+map_Kd teahouse-atlas.png

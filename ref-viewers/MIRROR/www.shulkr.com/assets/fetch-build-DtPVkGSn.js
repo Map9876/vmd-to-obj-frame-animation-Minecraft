@@ -1,0 +1,1 @@
+import{r as e}from"./browser-I-D20JeN.js";import{f as t,i as n}from"./dist-C66QuM2X.js";async function r(r,i,a){let{url:o}=await e(`/schematics/${encodeURIComponent(r)}/files/${encodeURIComponent(i)}/build-url`,{signal:a}),s=await fetch(o,{signal:a});if(!s.ok)throw Error(`build fetch failed (${s.status})`);return t(n(new Uint8Array(await s.arrayBuffer())))}export{r as t};
